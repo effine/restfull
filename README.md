@@ -1,4 +1,4 @@
 GitDemo
 =======
 
-test git program
+test git program; study git command
