@@ -8,8 +8,10 @@ package cn.effine.test;
 
 public class GitTest {
 	public static void main(String[] args) {
-		System.err.println();
-
-		System.err.println("-------");
+		
+		System.out.println("hello word !");
+ 
+		System.err.println("第四次修改--");
+ 
 	}
 }
