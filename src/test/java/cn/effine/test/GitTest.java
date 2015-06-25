@@ -7,12 +7,9 @@
 package cn.effine.test;
 
 public class GitTest {
-	System.err.println();
-	
-	System.err.println("-------");
-	
 	public static void main(String[] args) {
-		
-	}
+		System.err.println();
 
+		System.err.println("-------");
+	}
 }
