@@ -7,5 +7,10 @@
 package cn.effine.test;
 
 public class GitTest {
+	System.err.println();
+	
+	public static void main(String[] args) {
+		
+	}
 
 }
