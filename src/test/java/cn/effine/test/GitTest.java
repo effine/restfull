@@ -11,5 +11,7 @@ public class GitTest {
 		System.err.println();
 
 		System.err.println("-------");
+		
+		System.out.println("hello word !");
 	}
 }
