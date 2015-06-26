@@ -6,6 +6,7 @@
 # java files
 /target
 /build
+/bin
 *.war
 *.jar
 *.ear
