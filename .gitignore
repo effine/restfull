@@ -11,3 +11,4 @@
 *.jar
 *.ear
 *.class
+/bin/
