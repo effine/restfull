@@ -9,10 +9,5 @@ package cn.effine.test;
 public class GitTest {
 	public static void main(String[] args) {
 		
-		System.out.println("hello word !");
- 
-		System.err.println("第四次修改--");
-		System.err.println("第四次修改--");
-		System.err.println("第四次修改--");
 	}
 }
