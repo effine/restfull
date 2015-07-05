@@ -7,11 +7,4 @@
 package cn.effine.test;
 
 public class SecondClass {
-	public void sayHello() {
-	}
-	
-	public static void main(String[] args) {
-		
-		System.out.println("------");
-	}
 }
