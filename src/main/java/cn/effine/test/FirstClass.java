@@ -9,6 +9,10 @@ package cn.effine.test;
 public class FirstClass {
 	public void sayHello() {
 		System.err.println("------------");
+		System.err.println("------------");
+		System.err.println("------------");
+		System.err.println("------------");
+		System.err.println("------------");
 	}
 
 }
