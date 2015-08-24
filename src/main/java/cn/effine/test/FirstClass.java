@@ -9,7 +9,6 @@ package cn.effine.test;
 public class FirstClass {
 	public void sayHello() {
 		
-		
 	}
 
 }
