@@ -29,5 +29,5 @@ public class SecondClass {
 	public String sayWord() {
 		System.out.println("say word !");
 		return null;
-	}
+	}	
 }
