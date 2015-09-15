@@ -8,7 +8,13 @@ package cn.effine.test;
 
 public class FirstClass {
 	public void sayHello() {
-		System.err.println("------------");
+		int i = 0;
+		System.out.println(i);
+	}
+
+	public String sayWord() {
+		System.out.println("say word !");
+		return null;
 	}
 
 }
