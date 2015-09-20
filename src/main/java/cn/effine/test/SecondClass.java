@@ -6,12 +6,15 @@
 
 package cn.effine.test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class SecondClass {
 	public static void main(String[] args) {
 
 		System.err.println("-----");
 
-		
+		Map<String,Object> map = new HashMap<String,Object>();
 		
 		
 	}
