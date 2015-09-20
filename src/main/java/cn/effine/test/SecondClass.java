@@ -14,8 +14,29 @@ public class SecondClass {
 
 		System.err.println("-----");
 
+<<<<<<< HEAD
 		Map<String,Object> map = new HashMap<String,Object>();
 		
 		
+=======
+		// 模块1
+		// 测试提交 -- 第一次
+
+		// 模块2
+		// 测试提交 -- 第二次
+
+		// 模块3
+		// 测试提交第三次
+>>>>>>> 0bd752cab69e407d8f6f2c9c30dfe16e52b84a7c
 	}
+
+	public void sayHello() {
+		int i = 0;
+		System.out.println(i);
+	}
+
+	public String sayWord() {
+		System.out.println("say word !");
+		return null;
+	}	
 }
