@@ -14,11 +14,9 @@ public class SecondClass {
 
 		System.err.println("-----");
 
-<<<<<<< HEAD
 		Map<String,Object> map = new HashMap<String,Object>();
 		
 		
-=======
 		// 模块1
 		// 测试提交 -- 第一次
 
@@ -27,7 +25,6 @@ public class SecondClass {
 
 		// 模块3
 		// 测试提交第三次
->>>>>>> 0bd752cab69e407d8f6f2c9c30dfe16e52b84a7c
 	}
 
 	public void sayHello() {
