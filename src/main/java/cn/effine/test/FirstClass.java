@@ -6,6 +6,8 @@
 
 package cn.effine.test;
 
+import java.util.Arrays;
+
 public class FirstClass {
 	public void sayHello() {
 		int i = 0;
@@ -18,6 +20,13 @@ public class FirstClass {
 		System.out.println("say word !");
 
 		System.out.println("第一次修改");
+		
+		String str = "effine";
+		char[] c = str.toCharArray();
+		System.out.println();
+		
+		Arrays.sort(c);
+		
 
 		return null;
 	}
