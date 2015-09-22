@@ -7,8 +7,6 @@
 package cn.effine.test;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class FirstClass {
 	public void sayHello() {
