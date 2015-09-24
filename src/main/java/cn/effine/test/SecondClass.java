@@ -6,34 +6,36 @@
 
 package cn.effine.test;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class SecondClass {
 	public static void main(String[] args) {
 
-		System.err.println("-----");
+		//类型转换
+		byte a1 = 2, a2 = 4, a3;
+		short s = 16;
+		// a2 = s;
+		// a3 = a1 * a2;
 
-		Map<String,Object> map = new HashMap<String,Object>();
-		
-		
-		// 模块1
-		// 测试提交 -- 第一次
+		Employee e = new Employee("123");
+		System.out.println(e.empID);
 
-		// 模块2
-		// 测试提交 -- 第二次
-
-		// 模块3
-		// 测试提交第三次
 	}
 
-	public void sayHello() {
-		int i = 0;
-		System.out.println(i);
-	}
+}
 
-	public String sayWord() {
-		System.out.println("say word !");
-		return null;
-	}	
+class Person {
+	String name = "No name";
+
+	public Person(){}
+	public Person(String nm) {
+		name = nm;
+	}
+}
+
+class Employee extends Person {
+	String empID = "0000";
+
+	public Employee(String id) {
+		empID = id;
+
+	}
 }
