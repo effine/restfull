@@ -11,7 +11,9 @@ import java.util.Arrays;
 public class FirstClass {
 	public void sayHello() {
 		int i = 0;
+
 		System.out.println(i);
+
 	}
 
 	public String sayWord() {
