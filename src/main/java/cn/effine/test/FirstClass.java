@@ -13,11 +13,6 @@ public class FirstClass {
 		int i = 0;
 
 		System.out.println(i);
-
-	
-	
-	
-	
 	}
 
 	public String sayWord() {
