@@ -12,17 +12,6 @@ public class GitTest {
 		System.out.println("hello word !");
 
 		System.err.println("第四次修改--");
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 }
-
-
-
