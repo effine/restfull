@@ -11,22 +11,22 @@ import cn.effine.rest.IRestService;
  */
 public class GenericRestRequest implements IRestRequest {
 
-    private HttpServletRequest httpRequest;
-    private IRestService restService;
+	private HttpServletRequest httpRequest;
+	private IRestService restService;
 
-    public IRestService getRestService() {
-        return restService;
-    }
+	public IRestService getRestService() {
+		return restService;
+	}
 
-    public GenericRestRequest(HttpServletRequest request) {
-        this.httpRequest = request;
-    }
+	public GenericRestRequest(HttpServletRequest request) {
+		this.httpRequest = request;
+	}
 
-    public HttpServletRequest getHttpRequest() {
-        return httpRequest;
-    }
+	public HttpServletRequest getHttpRequest() {
+		return httpRequest;
+	}
 
-    public void setRestService(IRestService restService) {
-        this.restService = restService;
-    }
+	public void setRestService(IRestService restService) {
+		this.restService = restService;
+	}
 }
