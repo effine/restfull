@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>Rest测试</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=GB18030">
+        <script type="text/javascript"  src="jquery.jteam.web.js" language="javascript"></script>
+    </head>
+    <body>
+        <h1>Rest 测试Post,<a href="index.html">返回</a></h1>
+        <hr/>
+        这种方式适用于提交数据。注意：POST请求跨域后，JS是无法调用的，可以采用回调URL的方式处理。
+        <hr/>
+        <div>
+            <textarea cols="80" rows="10">
+                $.post("/rest/user.login", //此方式不能跨域，若要跨域，可以采用回调URL处理
+                {},
+                function(data){
+                    if (data.code==200){ //如果是成功返回
+                        alert(data.messages.doAction);                        
+                    }else{
+                        //出错了，或者别的
+                        alert(data.messages.doAction);
+                    }
+
+                },
+                "json");
+           </textarea>
+        </div>
+        <form action="/rest/user.login" name="loginForm" id="loginForm">
+            用户名:<input type="text" name="username" value=""/> <br/>
+            密码:<input type="text" name="password" value=""/> <br/>
+            <input type="button" value="提交" onclick="doLogin()" />
+        </form>
+        <div id="idResult">
+            这里显示结果
+        </div>
+        <script type="text/javascript">
+            function doLogin(){
+                $.post("/rest/user.login", //此方式不能跨域，若要跨域，可以采用回调URL处理
+                {},
+                function(data){
+                    if (data.code==200){ //如果是成功返回
+                        alert(data.messages.doAction);
+                    }else{
+                        //出错了，或者别的
+                        alert(data.messages.doAction);
+                    }
+                    $("#idResult").html(data.messages.doAction);
+                },
+                "json");
+            }
+        </script>
+    </body>
+</html>

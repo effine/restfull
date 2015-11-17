@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>RestServlet</servlet-name>
+    <servlet-class>cn.effine.rest.support.ServletRestDispatcher</servlet-class>
+    <init-param>
+      <param-name>service-class</param-name>
+      <param-value>cn.effine.rest.demo.UserLoginRest,cn.effine.rest.demo.UserQueryRest</param-value>
+    </init-param>
+    <init-param>
+      <param-name>interceptor-class</param-name>
+      <param-value>cn.effine.rest.demo.LogInterceptor</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RestServlet</servlet-name>
+    <url-pattern>/rest/*</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
