@@ -6,5 +6,6 @@ package cn.effine.rest;
  */
 public interface IRestInterceptor {
 
-    public void handleRest(IRestRequest request, IRestResponse response) throws RestException;
+	public void handleRest(IRestRequest request, IRestResponse response)
+			throws RestException;
 }
