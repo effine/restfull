@@ -11,7 +11,8 @@ import cn.effine.rest.RestException;
  */
 public class LogInterceptor implements IRestInterceptor {
 
-    public void handleRest(IRestRequest request, IRestResponse response) throws RestException {
-        System.out.println("拦截Rest请求.URI=" + request.getRestService().getURI());
-    }
+	public void handleRest(IRestRequest request, IRestResponse response)
+			throws RestException {
+		System.out.println("拦截Rest请求.URI=" + request.getRestService().getURI());
+	}
 }

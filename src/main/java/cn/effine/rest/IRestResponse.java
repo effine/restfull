@@ -5,7 +5,6 @@ import javax.servlet.http.HttpServletResponse;
 import cn.effine.web.Response;
 
 /**
- *
  * @author effine
  */
 public interface IRestResponse {
