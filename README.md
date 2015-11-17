@@ -1,6 +1,4 @@
-GitDemo
+restfull
 =======
 
-test git program; study git command
-
-maven and gradle build
+test restfull style program !
